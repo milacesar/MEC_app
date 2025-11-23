@@ -2,7 +2,7 @@ let componentsCache = null;
 
 async function loadComponentsFile() {
     if (!componentsCache) {
-        const response = await fetch("/components.html");
+        const response = await fetch("./components.html");
         const text = await response.text();
         const container = document.createElement("div");
         container.innerHTML = text;
@@ -36,3 +36,4 @@ document.addEventListener("DOMContentLoaded", () => {
     loadTemplate("header-template", "header");
     loadTemplate("footer-template", "footer");
 });
+
