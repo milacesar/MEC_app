@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+
+body, html {
+  height: 100%;
+}
+
+body {
+		/*background: #fff;*/
+		/*color: #888;*/
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 19pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		background-color: #222629f3; /*#3d4046;*/ /*#3c6ba1; #3d4046;*/
+		color: #ffffff80; /*#ffffff80;*/ /*#e6e6e6;*/
+	}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a; /* Dark background for dark mode */
+    color: #f0f0f0; /* Light text for dark mode */
+  }
+}
+
+
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+/* Sticky footer layout */
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #app {
+            flex: 1; /* Makes the main content area expand to fill space */
+        }
+        #footer {
+            /* No changes needed here, but ensure it's outside #app */
+        }
+
+

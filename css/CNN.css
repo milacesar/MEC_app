@@ -1,0 +1,188 @@
+input[type=checkbox][data-v-7d196ae0] {
+    display: none
+}
+
+label img[data-v-7d196ae0] {
+    cursor: pointer;
+    height: 1em;
+    width: 1em;
+    vertical-align: baseline
+}
+
+.slider-row[data-v-7420d9c6] {
+    padding: 5px
+}
+
+#balanced-slider[data-v-064ffd26] {
+    min-width: inherit;
+    padding: 5px
+}
+
+.legend-container[data-v-be114684] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial,sans-serif
+}
+
+.legend-labels[data-v-be114684] {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px
+}
+
+.legend-label[data-v-be114684] {
+    margin-bottom: 5px
+}
+
+.color-box[data-v-be114684] {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border: 1px solid #ccc
+}
+
+#legend[data-v-0c731fee] {
+    position: absolute;
+    bottom: 0;
+    right: 30px
+}
+
+#control-card[data-v-0c731fee] {
+    position: absolute;
+    top: 55px;
+    min-width: 25em
+}
+
+#control-card button[data-v-0c731fee] {
+    float: right;
+    margin: 15px 5px 5px 5px
+}
+
+.bad-color[data-v-0c731fee] {
+    color: #b51a28
+}
+
+.good-color[data-v-0c731fee] {
+    color: #367f2e
+}
+
+.vkt-adjuster[data-v-0c731fee] {
+    padding-right: 10px
+}
+
+.vkt-adjuster input[type=range][data-v-0c731fee] {
+    min-width: 10em;
+    margin-left: 1em
+}
+
+.full-screen {
+    overflow: hidden;
+    height: 100%;
+    width: 100%
+}
+
+.cesium-infoBox-defaultTable {
+    margin-top: 20px
+}
+
+.cesium-infoBox {
+    max-width: 510px
+}
+
+#legend[data-v-eaa79b06] {
+    position: absolute;
+    bottom: 0;
+    left: 30px
+}
+
+.img-fluid {
+    padding: 20px
+}
+
+.centre-block {
+    display: block;
+    margin: auto;
+    text-align: center
+}
+
+h2 {
+    padding-top: 15px
+}
+
+nav img[data-v-16066935] {
+    max-height: 30px
+}
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+main {
+    max-width: 80ch;
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em
+}
+
+input[type=number] {
+    max-width: 80%
+}
+
+div.outer {
+    position: fixed;
+    top: 41px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0
+}
+
+body,button,input,label,select {
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 200
+}
+
+h1,h2,h3,h4 {
+    font-weight: 400
+}
+
+label {
+    margin-left: .5rem
+}
+
+span.value {
+    float: right
+}
+
+.card {
+    margin: 30px;
+    padding: 15px
+}
+
+:is(label,h1,h2,h3,h4,h5,h6)[disabled] {
+    color: grey
+}
+
+input[type=range] {
+    min-width: 12em;
+    vertical-align: middle
+}
+
+input[type=number] {
+    width: 4.5em;
+    padding-left: 0;
+    margin-left: 1em
+}
+
+label {
+    display: inline;
+    min-width: 10em
+}
+
+figcaption {
+    color: #708090
+}
