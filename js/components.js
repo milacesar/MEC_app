@@ -31,20 +31,24 @@ async function loadHeadTemplate() {
 }
 
 async function loadMathJax() {
+    if (window.MathJax && window.MathJax.typesetPromise) return;
+
+    // Configure MathJax for manual tags
+    window.MathJax = {
+        tex: { tags: 'none' },  // disable auto-numbering
+        options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] }
+    };
+
+
     return new Promise((resolve, reject) => {
-        if (window.MathJax) {
-            // MathJax is already loaded
-            resolve();
-        } else {
             // Create the script element
             const script = document.createElement("script");
-            script.id = "MathJax-script";
+            // script.id = "MathJax-script";
             script.src = "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js";
-            script.async = true;
+            script.async = false;
             script.onload = () => resolve();
             script.onerror = () => reject(new Error("Failed to load MathJax"));
             document.head.appendChild(script);
-        }
     });
 }
 
