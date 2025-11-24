@@ -200,3 +200,24 @@ body {
     padding-top: 100px;       /* adjust depending on header height */
     padding-bottom: 50px;    /* so content doesn't sit under footer */
 }
+
+
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+table, th, td {
+  border: 1px solid rgb(221, 212, 212);
+}
+
+th {
+background-color: #6b6b6b
+}
